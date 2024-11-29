@@ -9,9 +9,7 @@ class ResConfigSettings(models.TransientModel):
     website_hide_price = fields.Boolean(
         string="Hide prices on website",
         related="website_id.website_hide_price",
-        readonly=False,
     )
     website_hide_price_default_message = fields.Char(
         related="website_id.website_hide_price_default_message",
-        readonly=False,
     )

@@ -9,13 +9,13 @@
                     id="website_sale_hide_price"
                     title="Hide prices at website level"
                 >
-                    <field name="website_hide_price" />
+                    <field name="website_hide_price" readonly="False" />
                 </setting>
                 <setting
                     id="website_sale_hide_price_message"
                     title="Set a default text when hiding prices"
                 >
-                    <field name="website_hide_price_default_message" />
+                    <field name="website_hide_price_default_message" readonly="False" />
                 </setting>
             </block>
         </field>
